@@ -30,7 +30,7 @@ html, body {
 }
 
 .hero-text {
-  margin-left: 2.5em;
+  margin: 2.5em;
 }
 
 .hero-text h1 {
@@ -49,8 +49,8 @@ html, body {
 }
 
 .card-img {
-  height: 30vh;
-  width: 30vw;
+  height: 117px;
+  width: 88px;
   border-radius: 9px;
   margin-bottom: 0.5em;
 }
@@ -62,8 +62,7 @@ html, body {
 .card {
   position: relative;
   font-size: 0.75rem;
-  margin-bottom: 4em;
-  width: 30vw;
+  width: 88px;
 }
 
 .badge {
@@ -84,12 +83,13 @@ html, body {
 }
 
 footer {
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 1em;
   background-color: #f7f7f7;
-  padding: 2em;
-  width: fit-content;
+  padding: 2em 2.5em;
+  width: 100%;
 }
 
 footer span {
@@ -97,12 +97,9 @@ footer span {
   align-self: center;
 }
 
-.footer-right {
+.footer-left, .footer-right {
   display: flex;
-}
-
-.footer-left {
-  display: flex;
+  justify-content: center;
 }
 
 .footer-left .text-img {
@@ -133,4 +130,22 @@ footer .socials {
 
 footer .usd {
   cursor: pointer;
+}
+
+/* Media query */
+@media (min-width: 765px) {
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 0.85rem;
+  }
+
+  .card {
+    width: 176px;
+  }
+
+  .card-img {
+    height: 235px;
+    width: 176px;
+  }
 }
