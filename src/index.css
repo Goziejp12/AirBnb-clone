@@ -38,7 +38,7 @@ html, body {
 
 .main {
   display: grid;
-  flex-wrap: wrap;
+  grid-template-columns: repeat(5, 1fr);
   margin: 2.5em;
   gap: 2em;
 }
