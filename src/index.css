@@ -38,7 +38,7 @@ html, body {
 
 .main {
   display: grid;
-  /* overflow: auto; */
+  flex-wrap: wrap;
   margin: 2.5em;
   gap: 2em;
 }
