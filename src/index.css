@@ -37,8 +37,8 @@ html, body {
 }
 
 .main {
-  display: flex;
-  overflow: auto; /* This creates horizontal scroll */
+  display: grid;
+  /* overflow: auto; */
   margin: 2.5em;
   gap: 2em;
 }
