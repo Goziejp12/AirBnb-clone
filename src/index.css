@@ -8,6 +8,11 @@ html, body {
   font-family: 'Poppins', sans-serif;
 }
 
+/* .layout {
+  display: flex;
+  flex-direction: column;
+} */
+
 .logo {
   width: 10%;
   margin: 1em 2.5em;
@@ -37,14 +42,15 @@ html, body {
 }
 
 .main {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   margin: 2.5em;
-  gap: 2em;
+  gap: 1em;
 }
 
 .card-img {
-  max-height: 30vh;
-  max-width: 50vw;
+  height: 30vh;
+  width: 30vw;
   border-radius: 9px;
   margin-bottom: 0.5em;
 }
