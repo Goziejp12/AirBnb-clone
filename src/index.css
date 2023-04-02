@@ -40,7 +40,7 @@ html, body {
 .main {
   display: flex;
   flex-wrap: wrap;
-  margin: 2.5em;
+  margin: 0 2.5em;
   gap: 1em;
 }
 
@@ -59,6 +59,7 @@ html, body {
   position: relative;
   font-size: 0.6rem;
   width: 88px;
+  margin-bottom: 2em;
 }
 
 .badge {
@@ -130,6 +131,10 @@ footer .usd {
 
 /* Media query */
 @media (min-width: 765px) {
+  .layout {
+    display: flex;
+    flex-direction: column;
+  }
 
   .hero-text{
     font-size: 1rem;
@@ -140,6 +145,7 @@ footer .usd {
   }
 
   footer {
+    margin-top: auto;
     flex-direction: row;
     justify-content: space-between;
     font-size: 0.85rem;
