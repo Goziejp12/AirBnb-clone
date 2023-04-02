@@ -39,26 +39,26 @@ html, body {
 
 .main {
   display: flex;
-  flex-wrap: wrap;
+  overflow: auto;
   margin: 0 2.5em;
   gap: 1em;
 }
 
 .card-img {
-  height: 117px;
-  width: 88px;
+  height: 235px;
+  width: 176px;
   border-radius: 9px;
   margin-bottom: 0.5em;
 }
 
 .card-star {
-  width: 10px;
+  width: 14px;
 }
 
 .card {
   position: relative;
-  font-size: 0.6rem;
-  width: 88px;
+  font-size: 0.8rem;
+  width: 176px;
   margin-bottom: 2em;
 }
 
@@ -136,6 +136,13 @@ footer .usd {
     flex-direction: column;
   }
 
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 2.5em;
+    gap: 1em;
+  }
+
   .hero-text{
     font-size: 1rem;
   }
@@ -149,19 +156,5 @@ footer .usd {
     flex-direction: row;
     justify-content: space-between;
     font-size: 0.85rem;
-  }
-
-  .card {
-    font-size: 0.85rem;
-    width: 176px;
-  }
-
-  .card-img {
-    height: 235px;
-    width: 176px;
-  }
-
-  .card-star {
-    width: 14px;
   }
 }
