@@ -57,7 +57,7 @@ html, body {
 
 .card {
   position: relative;
-  font-size: 0.65rem;
+  font-size: 0.8rem;
   width: 176px;
   margin-bottom: 2em;
 }
@@ -80,7 +80,7 @@ html, body {
 }
 
 footer {
-  font-size: 0.8rem;
+  font-size: 0.65rem;
   display: flex;
   flex-direction: column;
   gap: 1em;
