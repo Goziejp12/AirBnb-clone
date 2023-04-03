@@ -10,6 +10,7 @@ export default function App() {
     return (
     /* info={info} grabs all the properties and their respective values in the data object */
       <Card
+        key={info.id}
         info={info}
       />
     )
